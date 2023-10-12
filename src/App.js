@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="w-full min-h-screen bg-gray-100">
+        <div className="">
           <Router>
             <Routes>
               <Route exact path='/' element={< HomePage />}></Route>
