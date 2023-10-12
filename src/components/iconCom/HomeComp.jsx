@@ -5,7 +5,7 @@ const HomeComp = () => {
         <a
             href="#"
             target="_blank"
-            className="flex items-center p-2 text-2xl font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            className="flex items-center p-2 text-2xl font-normal text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700"
         >
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
 
