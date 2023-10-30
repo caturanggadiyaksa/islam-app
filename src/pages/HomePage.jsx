@@ -4,8 +4,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Navbar from '../components/navbar/Navbar';
 import Card from '../components/cards/Card';
 import Footer from '../components/footer/Footer';
-import { Link } from 'react-router-dom';
-
+import Api from '../service/ApiAsmaulhusna';
+import Surah from '../service/ApiSurah';
 
 const HomePage = () => {
 
@@ -16,16 +16,20 @@ const HomePage = () => {
     { name: 'Shalat', imgPath: 'src/assets/img/shalat.jpeg', router: '/shalat' },
     { name: 'Hadist', imgPath: 'src/assets/img/hadist.png', router: '/hadist' },
     { name: 'Doa', imgPath: 'src/assets/img/doa.jpeg', router: '/doa' },
-    
+
   ];
 
+ 
 
-  
+
+
 
   return (
+
     <div className='w-full min-h-screen'>
       <Navbar />
-
+      <Api/>
+      <Surah/>
       <div className='w-full pt-[6rem] h-32'>
         <div className='w-[90%] mx-auto'>
           <div className="flex flex-wrap items-center justify-center ">
@@ -37,7 +41,7 @@ const HomePage = () => {
       </div>
 
       <div>
-        <Footer/>
+        <Footer />
       </div>
 
     </div>);
