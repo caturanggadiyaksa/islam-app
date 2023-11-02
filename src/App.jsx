@@ -25,7 +25,9 @@ function App() {
         <Route path="/" element={<HomePage/>} />
         <Route path="/quran" element={<QuranPage/>} />
         <Route path="/asmaulhusna" element={<AsmaulHusnaPage/>} />
-        <Route path="/ayat" element={<AyatPage/>} />
+        <Route path="/quran/:ayatNumber" element={<AyatPage />} />
+        <Route path="/:ayatNumber" element={<AyatPage />} />
+        {/* <Route path="/ayat" element={<AyatPage/>} /> */}
         <Route path="/bookmark" element={<BookmarkPage/>} />
         <Route path="/doa" element={<DoaHarianPage/>} />
         <Route path="/hadist" element={<HadistPage/>} />
