@@ -1,13 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const SurahPage = () => {
-    return(
-        <div>
-          
-            
-        </div>
-    );
+  return <div>Halaman surah</div>;
 };
-
 
 export default SurahPage;

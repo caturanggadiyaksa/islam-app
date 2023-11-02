@@ -1,12 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const AyatPage = () => {
-    return(
-        <div>
-          
-            
-        </div>
-    );
+  return <div>Halaman Ayat</div>;
 };
 
 export default AyatPage;

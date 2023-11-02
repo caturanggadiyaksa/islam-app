@@ -1,13 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const ShalatPage = () => {
-    return(
-        <div>
-          
-            
-        </div>
-    );
+  return <div>Halaman salat</div>;
 };
-
 
 export default ShalatPage;
