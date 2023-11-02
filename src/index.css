@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'IndoPak';
+    src: url('./fonts/AlQuran-IndoPak-by-QuranWBW.v.4.2.2-WL.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
