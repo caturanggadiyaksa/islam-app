@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+
 
 const NavbarQuran = () => {
     return (
@@ -13,7 +15,9 @@ const NavbarQuran = () => {
                 <div className="w-full h-[5rem]">
                     <div className="w-[90%] h-[5rem] mx-auto flex items-center justify-beetwen">
                         <div className="w-1/2 flex items-center">
-                            <FontAwesomeIcon icon={faArrowLeftLong} />
+                            <Link to="/">
+                                <FontAwesomeIcon icon={faArrowLeftLong} />
+                            </Link>
                             <div className="ml-4">
                                 Quran
                             </div>
@@ -21,7 +25,7 @@ const NavbarQuran = () => {
 
 
                         <div className="w-1/2 flex justify-end">
-                        <FontAwesomeIcon icon={faGear} />
+                            <FontAwesomeIcon icon={faGear} />
                         </div>
 
 
